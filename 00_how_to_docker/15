@@ -1,0 +1,5 @@
+docker run --name Kylo-Ren \
+-d \
+--link usine-droid \
+-e PMA_HOST=usine-droid:3306 \
+-p 8081:80 phpmyadmin

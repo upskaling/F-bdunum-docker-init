@@ -1,0 +1,5 @@
+docker-machine ssh Alderaan "docker swarm join --token $(docker swarm join-token worker -q) $(docker-machine ip Tatooine):2377"
+
+
+# docker swarm join --token SWMTKN-1-0alpem5284ujoxv7cxnaufzppsl64ul8oe2q822u1y8sm3fa9c-cou5umomtmlf5omxx5k9j38jf 192.168.99.101:2377
+

@@ -1,0 +1,7 @@
+docker run -d --restart=always \
+-v starkiller:/var/lib/mysql \
+-e MYSQL_ROOT_PASSWORD=obiwan \
+-e MYSQL_DATABASE=droide \
+-e MYSQL_USER=anakin \
+-e MYSQL_PASSWORD=nikana \
+--name=usine-droid mysql

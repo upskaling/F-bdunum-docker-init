@@ -1,0 +1,11 @@
+docker run --name=naboo \
+   --link usine-droid \
+   -e WORDPRESS_DB_HOST=usine-droid:3306 \
+   -e WORDPRESS_DB_PASSWORD=nikana \
+   -e WORDPRESS_DB_USER=anakin \
+   -e WORDPRESS_DB_NAME=droide \
+   -e WORDPRESS_DEBUG=1 \
+   -p 8080:80 \
+   -d wordpress
+
+

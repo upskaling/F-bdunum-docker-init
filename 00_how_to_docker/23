@@ -1,0 +1,6 @@
+docker service create \
+ --network alliance-rebelle \
+ --name x-wing \
+ -e RABBITMQ_DEFAULT_USER=root \
+ -e RABBITMQ_DEFAULT_PASS=toor \
+ rabbitmq
